@@ -187,6 +187,7 @@ const findShadowRoot = element => {
 
 
   if (!element.parentNode) {
+    
     return null;
   }
 
